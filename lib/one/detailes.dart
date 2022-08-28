@@ -56,7 +56,7 @@ class _detailesState extends State<detailes> {
                   ),
                   onTap: (){
                     Navigator.of(context)
-                        .push(MaterialPageRoute(builder: (context) => home()));
+                        .pop(MaterialPageRoute(builder: (context) => home()));
                   },
                 ),
             ), //Back icon

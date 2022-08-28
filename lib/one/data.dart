@@ -58,35 +58,6 @@ String name18 ="المعجنات";
 String pic18 ="image/r.png";
 
 
-Container category(
-    String name00,
-    String img00,
-    Color color00,
-    ){
-  return
-    Container(
-      margin: EdgeInsets.fromLTRB(7, 7, 7, 0),
-      child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          Container(
-            height: 110, width: 110,
-            decoration: BoxDecoration(
-                image: DecorationImage(
-                  image: AssetImage("$img00",),
-                  fit: BoxFit.cover,
-                ),
-                borderRadius: BorderRadius.circular(15)
-            ),
-          ),
-          SizedBox(height: 7,),
-          Text("$name00",style: TextStyle(fontSize: 19, fontWeight: FontWeight.bold,
-            fontFamily: "Cario",color: color00 ),)
-        ],
-      ),
-    )
-    ;
-}
 
 Container restaurant(
     String name11,
